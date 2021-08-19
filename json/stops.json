@@ -1,0 +1,134 @@
+[
+    {
+        "stop" : "fulham",
+        "stop_id" : "001110" ,
+        "lines" : [
+        {
+            "route" : "970X",
+            "co" : "NWFB"
+        },
+        {
+            "route" : "970",
+            "co" : "NWFB"
+        },
+        {
+            "route" : "973",
+            "co" : "CTB"
+        },
+        {
+            "route" : "90B",
+            "co" : "CTB"
+        },
+        {
+            "route" : "40",
+            "co" : "CTB"
+        },
+        {
+            "route" : "40M",
+            "co" : "CTB"
+        },
+        {
+            "route" : "4",
+            "co" : "NWFB"
+        },
+        {
+            "route" : "4X",
+            "co" : "NWFB"
+        },
+        {
+            "route" : "7",
+            "co" : "CTB"
+        },
+        {
+            "route" : "71",
+            "co" : "CTB"
+        },
+        {
+            "route" : "91",
+            "co" : "NWFB"
+        },
+        {
+            "route" : "37B",
+            "co" : "CTB"
+        },
+        {
+            "route" : "37X",
+            "co" : "CTB"
+        }
+        ]
+    },
+    {
+        "stop" : "kcity",
+        "stop_id" : "003504",
+        "lines" : [
+            {
+                "route" : "20",
+                "co" : "ctb"
+            },
+            {
+                "route" : "608",
+                "co" : "ctb"
+            }
+        ]
+    },
+    {
+        "stop" : "kaitak_station",
+        "stop_id" : "003587",
+        "lines" : [
+            {
+                "route" : "22M",
+                "co" : "ctb"
+            }
+        ]
+    },
+    {
+        "stop" : "cyberport_terminus",
+        "stop_id" : "002392",
+        "lines" : [
+            {
+                "route" : "73",
+                "co" : "ctb"
+            },
+            {
+                "route" : "970",
+                "co" : "nwfb"
+            },
+            {
+                "route" : "30X",
+                "co" : "nwfb"
+            }
+        ]
+    },
+    {
+        "stop" : "cyberport_3",
+        "stop_id" : "002393",
+        "lines" : [
+            {
+                "route" : "73",
+                "co" : "ctb"
+            },
+            {
+                "route" : "30X",
+                "co" : "nwfb"
+            }
+        ]
+    },
+    {
+        "stop" : "wahfu",
+        "stop_id" : "",
+        "lines" : [
+            {
+                "route" : "73",
+                "co" : "ctb"
+            },
+            {
+                "route" : "970",
+                "co" : "nwfb"
+            },
+            {
+                "route" : "30X",
+                "co" : "nwfb"
+            }
+        ]
+    }
+]

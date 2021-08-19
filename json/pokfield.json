@@ -1,0 +1,73 @@
+[
+    {
+        "name" : "pokfield",
+        "id" : "001120" ,
+        "lines" : [
+        {
+            "route" : "970X",
+            "co" : "NWFB",
+            "through" : "華富 香港仔"
+        },
+        {
+            "route" : "970",
+            "co" : "NWFB",
+            "through" : "華富 數碼港"
+        },
+        {
+            "route" : "973",
+            "co" : "CTB",
+            "through" : "香港仔 黃竹坑 淺水灣 赤柱"
+        },
+        {
+            "route" : "90B",
+            "co" : "CTB",
+            "through" : "香港仔"
+        },
+        {
+            "route" : "40",
+            "co" : "CTB",
+            "through" : "華富"
+        },
+        {
+            "route" : "40M",
+            "co" : "CTB",
+            "through" : "華富"
+        },
+        {
+            "route" : "4",
+            "co" : "NWFB",
+            "through" : "華富"
+        },
+        {
+            "route" : "4X",
+            "co" : "NWFB",
+            "through" : "華富"
+        },
+        {
+            "route" : "7",
+            "co" : "CTB",
+            "through" : "香港在 石排灣"
+        },
+        {
+            "route" : "71",
+            "co" : "CTB",
+            "through" : "香港仔 黃竹坑"
+        },
+        {
+            "route" : "91",
+            "co" : "NWFB",
+            "through" : "香港仔 利東 鴨脷洲"
+        },
+        {
+            "route" : "37A",
+            "co" : "CTB",
+            "through" : "置富"
+        },
+        {
+            "route" : "30X",
+            "co" : "NWFB",
+            "through" : "特快 數碼港"
+        }
+        ]
+    }
+]

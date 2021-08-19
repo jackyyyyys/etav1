@@ -1,0 +1,106 @@
+[
+    {
+        "name" : "whc_south",
+        "id" : "001629" ,
+        "lines" : [
+        {
+            "route" : "904",
+            "co" : "NWFB",
+            "kmb" : 1,
+            "through" : "石塘嘴 堅尼地城"
+        },
+        {
+            "route" : "905",
+            "co" : "NWFB",
+            "kmb" : 1,
+            "through" : "石塘嘴 上環 金鐘 灣仔"
+        },
+        {
+            "route" : "914",
+            "co" : "NWFB",
+            "kmb" : 1,
+            "through" : "上環 中環 灣仔 銅鑼灣"
+        },
+        {
+            "route" : "930",
+            "co" : "CTB",
+            "through" : "特快 中環 金鐘"
+        },
+        {
+            "route" : "930X",
+            "co" : "CTB",
+            "through" : "東閘 西半山 金鐘 灣仔"
+        },
+        {
+            "route" : "948",
+            "co" : "CTB",
+            "through" : "東閘 西半山 金鐘"
+        },
+        {
+            "route" : "962B",
+            "co" : "NWFB",
+            "through" : "西環 上環 中環 循環線"
+        },
+        {
+            "route" : "962X",
+            "co" : "NWFB",
+            "through" : "特快 上環 中環 循環線"
+        },
+        {
+            "route" : "967",
+            "co" : "CTB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "969",
+            "co" : "CTB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "970",
+            "co" : "NWFB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "970X",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "970",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "971",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "973",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "A10",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "A11",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "A12",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "E11",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        }
+        ]
+    }
+]
