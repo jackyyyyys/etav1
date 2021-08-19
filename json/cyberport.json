@@ -1,0 +1,28 @@
+[
+    {
+        "name" : "cyberport",
+        "id" : "002393" ,
+        "lines" : [
+        {
+            "route" : "970",
+            "co" : "NWFB",
+            "through" : "西環 佐敦 旺角 深水埗"
+        },
+        {
+            "route" : "30X",
+            "co" : "NWFB",
+            "through" : "特快 中環 薄扶林 數碼港"
+        },
+        {
+            "route" : "73",
+            "co" : "CTB",
+            "through" : "香港仔 黃竹坑 赤柱"
+        },
+        {
+            "route" : "107P",
+            "co" : "CTB",
+            "through" : "香港仔 黃竹坑 灣仔 紅磡"
+        }
+        ]
+    }
+]

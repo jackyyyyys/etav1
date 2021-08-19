@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "kaitak_station",
+        "id" : "003587" ,
+        "lines" : [
+        {
+            "route" : "22M",
+            "co" : "CTB",
+            "through" : "九龍城 | 九龍灣 郵輪碼頭"
+        }
+        ]
+    }
+]

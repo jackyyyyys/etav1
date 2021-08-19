@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Javascript on document load-->
+    <script type="text/javascript" src="json/stops.json"></script>
+    <script type="text/javascript" src="js/time.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+
+    <title>啟德 ETA</title>
+</head>
+<body onload="startTime()" style="background-color: rgb(255, 254, 184);">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-warning">
+        <a class="navbar-brand" id = "time">Time Now</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="form-inline">
+            <button class="btn btn-outline-dark" type="button" id="refresh" onclick="geteta()">Refresh</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">富林苑 北行<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pokfield.html">蒲飛路 南行</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./cyberport.html">數碼港</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">啟德</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./tsw.html">天葵路</a>
+            </li>
+            </ul>
+        </div>
+        <span class="navbar-text">© 2020 | js studio</span>
+    </nav>
+
+    <div class="container-fluid">
+
+        <h3>啟德   <small><span id="updated"></span></small></h3>
+
+        <div class="row">                                           <!-- Row -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6" style="margin: 0; padding-right: 5px" id="20">      <!-- 20 -->
+                <div class="row">
+                    <div class="col">
+                        <h1>20</h1>
+                    </div>
+                    <div class="col">
+                        <p><small id="through"></small></p>
+                    </div>
+                </div>
+                <table class="table table-sm table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="eta1"></td>
+                            <td class="dest1"></td>
+                        </tr>
+                        <tr>
+                            <td class="eta2"></td>              
+                            <td class="dest2"></td>              
+                        </tr>
+                        <tr>
+                            <td class="eta3"></td>
+                            <td class="dest3"></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>                                                  <!-- 20 -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6" style="margin: 0; padding-right: 5px" id="22M">      <!-- 22M -->
+                <div class="row">
+                    <div class="col">
+                        <h1>22M</h1>
+                    </div>
+                    <div class="col">
+                        <p><small id="through"></small></p>
+                    </div>
+                </div>
+                <table class="table table-sm table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="eta1"></td>
+                            <td class="dest1"></td>
+                        </tr>
+                        <tr>
+                            <td class="eta2"></td>              
+                            <td class="dest2"></td>              
+                        </tr>
+                        <tr>
+                            <td class="eta3"></td>
+                            <td class="dest3"></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>                                                  <!-- 22M -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6" style="margin: 0; padding-left: 5px" id="608">       <!-- 608 -->
+                <div class="row">
+                    <div class="col">
+                        <h1>608</h1>
+                    </div>
+                    <div class="col">
+                        <p><small id="through"></small></p>
+                    </div>
+                </div>
+                <table class="table table-sm table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="eta1"></td>
+                            <td class="dest1"></td>
+                        </tr>
+                        <tr>
+                            <td class="eta2"></td>              
+                            <td class="dest2"></td>              
+                        </tr>
+                        <tr>
+                            <td class="eta3"></td>
+                            <td class="dest3"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>                                                      <!-- Row -->
+    </div>
+    
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+</script>
+<script 
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+</script>
+<script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous">
+</script>
+<script language="JavaScript" type="text/javascript">
+    $(document).ready(function() {
+        geteta("kcity");
+        geteta("kaitak_station");
+    })
+</script>
+
+</body>
+</html>

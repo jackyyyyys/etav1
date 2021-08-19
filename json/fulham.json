@@ -1,0 +1,73 @@
+[
+    {
+        "name" : "fulham",
+        "id" : "001110" ,
+        "lines" : [
+        {
+            "route" : "970X",
+            "co" : "NWFB",
+            "through" : "特快 佐敦 旺角 深水埗"
+        },
+        {
+            "route" : "970",
+            "co" : "NWFB",
+            "through" : "西環 佐敦 旺角 深水埗"
+        },
+        {
+            "route" : "973",
+            "co" : "CTB",
+            "through" : "西環 柯士甸 尖沙嘴"
+        },
+        {
+            "route" : "90B",
+            "co" : "CTB",
+            "through" : "特快 中環 金鐘"
+        },
+        {
+            "route" : "40",
+            "co" : "CTB",
+            "through" : "東閘 西半山 金鐘 灣仔"
+        },
+        {
+            "route" : "40M",
+            "co" : "CTB",
+            "through" : "東閘 西半山 金鐘"
+        },
+        {
+            "route" : "4",
+            "co" : "NWFB",
+            "through" : "西環 上環 中環 循環線"
+        },
+        {
+            "route" : "4X",
+            "co" : "NWFB",
+            "through" : "特快 上環 中環 循環線"
+        },
+        {
+            "route" : "7",
+            "co" : "CTB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "71",
+            "co" : "CTB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "91",
+            "co" : "NWFB",
+            "through" : "西環 上環 中環"
+        },
+        {
+            "route" : "37B",
+            "co" : "CTB",
+            "through" : "西環 電車路 灣仔 南區"
+        },
+        {
+            "route" : "37X",
+            "co" : "CTB",
+            "through" : "特快 中環 金鐘"
+        }
+        ]
+    }
+]

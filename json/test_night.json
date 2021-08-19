@@ -1,0 +1,43 @@
+[
+    {
+        "name" : "test_night",
+        "id" : "002431" ,
+        "lines" : [
+        {
+            "route" : "N8X",
+            "co" : "CTB",
+            "through" : "英皇道 筲箕灣道 柴灣道 小西灣"
+        },
+        {
+            "route" : "N121",
+            "co" : "NWFB",
+            "through" : "紅隧 土瓜灣 黃大仙 牛頭角"
+        },
+        {
+            "route" : "N182",
+            "co" : "CTB",
+            "through" : "紅隧 九龍塘 獅隧 大衛 沙田 廣源"
+        },
+        {
+            "route" : "N307",
+            "co" : "CTB",
+            "through" : "特快 東隧 大老山 大埔"
+        },
+        {
+            "route" : "N619",
+            "co" : "CTB",
+            "through" : "北角 東隧 觀塘 牛頭角 順利"
+        },
+        {
+            "route" : "N680",
+            "co" : "CTB",
+            "through" : "北角 東隧 大老山 第一城 石門 馬鞍山"
+        },
+        {
+            "route" : "N691",
+            "co" : "NWFB",
+            "through" : "北角 東隧 秀茂坪 寶琳山 將軍澳北，南"
+        }
+        ]
+    }
+]
